@@ -1,0 +1,62 @@
+\documentclass[usenames,dvipsnames]{beamer}
+%\documentclass[notes=only]{beamer}
+%\documentclass[notes]{beamer}
+\usetheme[pageofpages=of, %string used between the current page and the total page count
+	bullet=circle, %use bullets instead of squares for bullets
+	titleline=true, %show a line below the frame title
+	alternativetitlepage=true, %use the fancy title page
+	titlepagelogo=, %logo for the first page
+	watermark=, %watermark used for every page
+	watermarkheight=100px, %height for the watermark
+	watermarkheightmult=6, %the watermark image is 4 times bigger than watermarkheight
+	]{Torino}
+\usecolortheme{didy}
+\usepackage{graphicx}
+\usepackage{url}
+\definecolor{didyred}{RGB}{226,0,38}
+\definecolor{didygreen}{RGB}{0,153,0}
+\setbeamertemplate{bibliography item}[text]
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\setbeamercolor{block title}{use=structure,fg=didyred,bg=white}
+\usepackage{fancybox, graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+
+\newcommand{\eg}{e.\,g.\ }
+\usepackage{booktabs}
+\usepackage{changepage}
+
+
+
+
+%\ifx\pdfoutput\undefined
+%%	\usepackage{graphicx}
+%	\usepackage{tikz}
+%	\usepackage{hyperref}
+%\else
+%	\usepackage[pdftex]{graphicx}
+
+
+
+\author{Authors}
+\title{Title}
+\institute{Warwick Medical School}
+\date{\today}
+\begin{document}
+ 
+\begin{frame}[t,plain]
+ \titlepage
+ \end{frame}
+
+
+\begin{frame}{Testframe 1}
+test test
+\end{frame}
+
+\begin{frame}{Testframe 2}
+test test
+\end{frame}
+\end{document}
